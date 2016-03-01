@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: "소개"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+안녕하세요 대학생 개발자 입니다.  
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+주로 안드로이드를 공부했으며  
+현재는 웹 언어들 위주로 공부하고 있습니다.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Jekyll을 이용하여 블로그를 만들어 보았는데 익숙하지가 않네요
+
+이것 저것 경험한 내용을 정리하여 올려보려 합니다.  
+많은 피드백 부탁드립니다.
