@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Open PaaS(OpenShift)에서 node.js를 사용해보자"
+title:  "Open PaaS(OpenShift)에서 Node.js + MongoDB를 사용해보자"
 date:   2016-03-01 23:28:09 +0900
-categories: MEAN
+categories: blog
 ---
 ## Open PaaS에 대하여
 
@@ -72,6 +72,11 @@ rhc cartridge add mongodb-2.4 -a myapp
 {% endhighlight %}  
 
 모든 과정이 마무리 되었습니다.  
+
+자신의 프로젝트 주소로 이동해보면 다음과 같이 나오게 됩니다.
+(자신의 프로젝트 주소는 http://'어플리케이션 이름'-'계정도메인(가입 시 설정)'.cloudsc.kr/ 입니다.)
+![result]({{ site.url }}/images/1/result.png)
+
 수고하셨습니다.
 
 [Open-PaaS]: http://openpaas.cloudsc.kr
