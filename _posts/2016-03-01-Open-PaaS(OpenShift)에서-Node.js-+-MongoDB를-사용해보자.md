@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Open PaaS(OpenShift)에서 Node.js + MongoDB를 사용해보자"
+title:  Open PaaS(OpenShift)에서 Node.js + MongoDB를 사용해보자
 date:   2016-03-01 23:28:09 +0900
 categories: blog
+description: "Open PaaS및 OpenShift에서 Node.js와 MongoDB를 사용하기 위한 설정법에 대해서 설명합니다."
 ---
-## Open PaaS에 대하여
+### Open PaaS에 대하여
 
 MEAN 스택 공부를 위해 무료 호스팅 이나 Paas 가 없을까 찾아보다가 알게되었습니다.
 
