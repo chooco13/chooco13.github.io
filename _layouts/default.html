@@ -18,4 +18,20 @@
     {% include google_analytics.html %}
   </body>
 
+  <script>
+  /*github page는 공식적으로 kramdown만 지원하기로 채택하였으나
+    kramdown은 아직 취소선을 지원하지 않는다.
+    따라서 아래의 코드를 통해 취소선을 생성한다.*/
+  (function() {
+    function strikethrough(){
+      document.body.innerHTML = document.body.innerHTML.replace(
+        /\~\~(.+?)\~\~/gim,
+        '<del>$1</del>'
+      );
+    }
+    strikethrough();
+    console.log('hi');
+  })();
+  </script>
+
 </html>
