@@ -27,7 +27,7 @@ openshift .git 폴더와 .openshift 폴더를 제외하고는 다 삭제해 주�
 혹시 모르니깐 백업해 두셔도 좋을 것 같습니다.
 
 PaaS이 같은 API를 통해 직접 제공하게 될 경우 AngularJS에서는 `http://localhost:3000/api/posts` 이런 형식이 아닌 `/api/posts` 와 같은 형식으로 코드를 고쳐 주셔야 합니다.  
-예를 들면 `$http.get('http://localhost:3000/ai/posts')`가 `$http.get('/api/posts')`로 고쳐져야 합니다.
+예를 들면 `$http.get('http://localhost:3000/api/posts')`가 `$http.get('/api/posts')`로 고쳐져야 합니다.
 
 다음은 `package.json`에서 수정할 부분에 대해 설명해 드리겠습니다.
 name과 dependencies에서는 수정할 부분이 없고 그 아래 부분만 참고하시면 되겠습니다.  
