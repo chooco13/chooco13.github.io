@@ -96,6 +96,9 @@ mongoose.connect('mongodb://'+ connection_string, function(){ ... })//이하 생
 
 수고하셨습니다.
 
+결과 소스코드는 [https://github.com/chooco13/openshift-node.js-example][result]에 올려 두었습니다.
+
 [post1]: http://chooco13.github.io/blog/2016/03/01/Open-PaaS(OpenShift)%EC%97%90%EC%84%9C-Node.js-+-MongoDB%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90.html
 [book]: http://book.naver.com/bookdb/book_detail.nhn?bid=8779083
 [book-sample]: https://github.com/dickeyxxx/mean-sample
+[result]: https://github.com/chooco13/openshift-node.js-example
