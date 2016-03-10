@@ -51,6 +51,19 @@ var bcrypt = require('bcrypt-nodejs')
 
 이제 git을 통해 PaaS 서버에 올리면 정상적으로 동작할 것입니다.
 
+### 추가 내용
+
+좀 더 공부하다 보니 hash 함수에서 차이를 발견했습니다.  
+
+{% highlight JavaScript %}
+hash(data, salt, cb) // bcrypt
+hash(data, salt, progress, cb) // bcrypt-nodejs
+{% endhighlight %}
+
+pregress 부분을 null로 넣어주시면 같게 동작합니다.  
+자세히 보고 싶으신분들은 위의 링크를 통해 들어가시면 되겠습니다.
+
+
 [bcrypt]: https://www.npmjs.com/package/bcrypt
 [bcrypt-nodejs]: https://www.npmjs.com/package/bcrypt-nodejs
 [book]: http://book.naver.com/bookdb/book_detail.nhn?bid=8779083
