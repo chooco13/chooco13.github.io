@@ -3,7 +3,7 @@ layout: post
 title: "&#91;OpenShift&#93; Node.js에서 bcrypt 사용시 죽는 문제 해결하기"
 date: 2016-03-10 18:00:00 +0900
 categories: blog
-description: ""
+description: "OpenShift를 이용하여 서비스한 Node.js에서 bcrypt를 사용할 경우 503 에러로 죽는 문제를 해결하는 방법에 대해 알아보도록 하겠습니다"
 ---
 
 ## 증상
