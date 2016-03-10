@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu x window 복구하기
+title: "&#91;Ubuntu&#93; x window 복구하기"
 date: 2016-03-08 16:00:00 +0900
 categories: blog
 description: ubuntu 사용 중 x window 가 깨졌을 때 어떻게 복구하는지에 대해 알아보겠습니다.

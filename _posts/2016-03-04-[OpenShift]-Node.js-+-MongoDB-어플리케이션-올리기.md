@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OpenShift에 Node.js + MongoDB 어플리케이션 올리기
+title:  "&#91;OpenShift&#93; Node.js + MongoDB 어플리케이션 올리기"
 date:   2016-03-04 18:00:00 +0900
 categories: blog
 description: OpenShift에 Node.js 와 MongoDB 를 사용하는어플리케이션 올리는 방법에 대해 알아보겠습니다.

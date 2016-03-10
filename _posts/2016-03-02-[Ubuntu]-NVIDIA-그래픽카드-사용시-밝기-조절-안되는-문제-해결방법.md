@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  우분투 NVIDIA 그래픽카드 사용시 밝기 조절 안되는 문제 해결방법
+title:  "&#91;Ubuntu&#93; NVIDIA 그래픽카드 사용시 밝기 조절 안되는 문제 해결방법"
 date:   2016-03-02 22:00:00 +0900
 categories: blog
 description: "Ubuntu(우분투)에서 NVIDIA 그래픽카드 사용시 밝기값은 변경되나 실절적인 밝기값이 조절되지 않는 문제를 해결한다."
@@ -18,7 +18,7 @@ sudo apt-get install nvidia-current
 /usr/share/X11/xorg.conf.d 경로에 `20nvidia.conf` 파일을 생성해 주어야 합니다.
 
 {% highlight shell %}
-sudo nano /usr/share/X11/xorg.conf.d/20nvidia.conf
+sudo nano /usr/share/X11/x852org.conf.d/20nvidia.conf
 {% endhighlight %}  
 
 nano 에디터에서 아래의 내용을 복사 해주시면 됩니다.  

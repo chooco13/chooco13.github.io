@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 리눅스 Node No such file or directory 문제 해결하기
+title: "&#91;Ubuntu&#93; node&#58; No such file or directory 문제 해결하기"
 date: 2016-03-07 16:00:00 +0900
 categories: blog
-description: 리눅스에서 Node 사용 시 발생하는 No such file or directory 문제의 원인과 해결하는 방법에 대해 알아보겠습니다.
+description: Ubuntu(우분투)에서 Node 사용 시 발생하는 No such file or directory 문제의 원인과 해결하는 방법에 대해 알아보겠습니다.
 ---
 
 ## 원인

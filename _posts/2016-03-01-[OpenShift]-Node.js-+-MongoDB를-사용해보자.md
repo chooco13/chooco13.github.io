@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OpenShift에서 Node.js + MongoDB를 사용해보자
+title:  "&#91;OpenShift&#93; Node.js + MongoDB를 사용해보자"
 date:   2016-03-01 23:28:09 +0900
 categories: blog
 description: "OpenShift에서 Node.js와 MongoDB를 사용하기 위한 설정법에 대해서 설명합니다."
