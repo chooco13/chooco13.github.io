@@ -76,7 +76,7 @@ rhc cartridge add mongodb-2.4 -a myapp
 
 자신의 프로젝트 주소로 이동해보면 다음과 같이 나오게 됩니다.
 (자신의 프로젝트 주소는 http://'어플리케이션 이름'-'계정도메인(가입 시 설정)'.cloudsc.kr/ 입니다.)
-![result]({{ site.url }}/images/1/result.png)
+![result]({{ site.url }}/images/2016-03-01/result.png)
 
 수고하셨습니다.
 
