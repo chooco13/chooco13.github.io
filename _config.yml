@@ -12,10 +12,16 @@ email: choo_co@naver.com
 description: > # this means to ignore newlines until "baseurl:"
   모바일, 웹 그리고 프로그래밍 중심의 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: http://chooco13.github.io
 github_username:  chooco13
 comments: true
 future: true
+
+category_title_prefix: ''
+category_dir: /
+
+permalink: /:title/
+
 
 # Build settings
 markdown: kramdown
