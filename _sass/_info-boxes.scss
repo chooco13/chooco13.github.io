@@ -1,0 +1,90 @@
+// ==========================================================================
+// https://github.com/davidensinger/davidensinger.github.io
+// ==========================================================================
+// Info boxes
+// ==========================================================================
+
+$base-line-multi: 4;
+
+$color-infoBox--gray__color: $gray-dark;
+$color-infoBox--gray__color-hover: $gray-darker;
+$color-infoBox--gray__backgroundColor: $white-dark;
+$color-infoBox--gray__border: $gray-lightest;
+
+%info-box {
+  padding: 1em;
+  margin-bottom: emRhythm($base-line-multi);
+
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// yellow
+%yellow-box,
+.yellow-box {
+  @extend %info-box;
+  color: $color-infoBox--yellow__color;
+  background-color: $color-infoBox--yellow__backgroundColor;
+  border-left: 0.33em solid $color-infoBox--yellow__border;
+
+  a {
+
+    &:hover,
+    &:focus {
+      color: $color-infoBox--yellow__color-hover;
+    }
+  }
+}
+
+// gray
+%gray-box,
+.gray-box {
+  padding: 12px 16px;
+  @extend %info-box;
+  color: $color-infoBox--gray__color;
+  background-color: $color-infoBox--gray__backgroundColor;
+  border-left: 0.33em solid $color-infoBox--gray__border;
+
+  a {
+
+    &:hover,
+    &:focus {
+      color: $color-infoBox--gray__color-hover;
+    }
+  }
+}
+
+/**
+ * Code formatting
+ */
+pre{
+  @extend %gray-box;
+}
+
+pre,
+code {
+    font-size: 15px;
+    //border: 1px solid $grey-color-light;
+    //border-radius: 3px;
+    background-color: $white-dark;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    //padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
