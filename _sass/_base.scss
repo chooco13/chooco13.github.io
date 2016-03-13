@@ -38,10 +38,6 @@ ul, ol, dl, figure,
     margin-bottom: 20px;
 }
 
-
-
-
-
 /**
  * Images
  */
@@ -176,4 +172,21 @@ blockquote {
             fill: $grey-color;
         }
     }
+}
+
+.entry-meta--icon {
+  color: $grey-color;
+
+  svg {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+    transition: all 0.25s;
+    backface-visibility: hidden;
+    fill: currentColor;
+  }
 }
