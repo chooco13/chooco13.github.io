@@ -20,7 +20,7 @@ description: OpenShift에 Node.js 와 MongoDB 를 사용하는어플리케이션
 책 예제를 보고 싶으신 분은 [https://github.com/dickeyxxx/mean-sample][book-sample] 을 참고해 주시면 되겠습니다. (ch.5 입니다.)
 
 
-## Node.js 설정하기
+### Node.js 설정하기
 먼저 `rhc app create` 명령어를 통해 자동생성된 파일들을 정리해 봅시다.  
 openshift .git 폴더와 .openshift 폴더를 제외하고는 다 삭제해 주세요.  
 그 후에 원래 local에서 진행하던 프로젝트를 옮겨 주시면 됩니다.  
@@ -73,7 +73,7 @@ app.listen(server_port, server_ip_address, function() {
 });
 {% endhighlight %}
 
-## MongoDB 설정하기
+### MongoDB 설정하기
 
 `db.js` 에서(혹은 db관련 소스가 들어있는 부분에서) 다음 부분을 추가해 주시면 되겠습니다.
 server.js 에서의 IP설정과 마찬가지로 local에서도 동작하도록 구성되어 있습니다.

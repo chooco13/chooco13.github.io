@@ -6,7 +6,7 @@ categories: blog
 description: "OpenShift를 이용하여 서비스한 Node.js에서 bcrypt를 사용할 경우 503 에러로 죽는 문제를 해결하는 방법에 대해 알아보도록 하겠습니다"
 ---
 
-## 증상
+### 증상
 
 저는 [MEAN 스택을 사용한 모던 웹 개발 입문][book] 이란 책을 통해 공부하고 있습니다.  
 
@@ -30,7 +30,7 @@ Error: /lib64/libc.so.6: version `GLIBC_2.14' not found (required by /var/lib/op
 //... 이하 생략
 {% endhighlight %}  
 
-## 해결방법
+### 해결방법
 
 사실 특별한 해결방법이 없습니다. 오늘 하루종일 찾아봤는데 없었습니다.  
 

@@ -5,7 +5,7 @@ date:   2016-03-01 23:28:09 +0900
 categories: blog
 description: "OpenShift에서 Node.js와 MongoDB를 사용하기 위한 설정법에 대해서 설명합니다."
 ---
-## Open PaaS에 대하여
+### Open PaaS에 대하여
 
 MEAN 스택 공부를 위해 무료 호스팅 이나 Paas 가 없을까 찾아보다가 알게되었습니다.
 
@@ -17,7 +17,7 @@ MEAN 스택 공부를 위해 무료 호스팅 이나 Paas 가 없을까 찾아�
 (그럼 무슨 차이가 있을까 해서 찾아봤는데 사실 저 같은 개인 개발자 용도로는 별다른 차이가 없는 것 같습니다. 나중에라도 큰 차이를 알게되면 추가하겠습니다.)  
 [OPENSHIFT][Openshift]
 
-## 환경설정
+### 환경설정
 
 저는 우분투로 진행하여서 지원센터의 [리눅스 가이드][linux-guide] 를 따라 진행하였습니다.  
 다른 운영체제로 하시는 분은 해당 운영체제 가이드를 참고하시면 될 것 같습니다.  
@@ -54,7 +54,7 @@ rhc setup --server broker.cloudsc.kr
 
 사이트 가이드는 여기서 마무리 됩니다.
 
-## Node.js + MongoDB 어플리케이션 시작하기
+### Node.js + MongoDB 어플리케이션 시작하기
 
 이제 node.js로 어플리케이션을 생성하도록 하겠습니다.
 {% highlight shell %}

@@ -6,7 +6,7 @@ categories: blog
 description: Ubuntu(우분투)에서 Node 사용 시 발생하는 No such file or directory 문제의 원인과 해결하는 방법에 대해 알아보겠습니다.
 ---
 
-## 원인
+### 원인
 
 There is a naming conflict with the node package (Amateur Packet Radio Node Program), and the nodejs binary has been renamed from node to nodejs. You'll need to symlink /usr/bin/node to /usr/bin/nodejs or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
 
@@ -18,7 +18,7 @@ There is a naming conflict with the node package (Amateur Packet Radio Node Prog
 그래서 저는  `nodejs`로 사용해 왔는데
 오늘 공부하면서 나온 gulp 라는 툴은 node를 잡지 못하는 일이 있어 찾아보니 해당 위치에 node가 없어서 일어난 일이였습니다.
 
-## 해결방법
+### 해결방법
 
 터미널에서 다음 명령어를 입력해 주시면 됩니다.
 

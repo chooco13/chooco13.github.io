@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -30,13 +28,17 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
 p, blockquote, /*pre,*/
 ul, ol, dl, figure,
 %info-box,
 %vertical-rhythm {
     margin-bottom: 20px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+}
+
 
 /**
  * Images
@@ -81,7 +83,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: bold;
 }
 
 
@@ -189,4 +191,9 @@ blockquote {
     backface-visibility: hidden;
     fill: currentColor;
   }
+}
+
+b, strong {
+	font-weight: bold;
+	overflow: auto;
 }
