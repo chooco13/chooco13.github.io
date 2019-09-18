@@ -9,10 +9,9 @@ encoding: utf-8
 # Site settings
 author: 'chooco'
 
-title: chooco blog
+title: chooco13
 email: choo_co@naver.com
-description: > # this means to ignore newlines until "baseurl:"
-  모바일, 웹 그리고 프로그래밍 중심의 블로그
+description: ''
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://chooco13.github.io
 github_username:  chooco13
